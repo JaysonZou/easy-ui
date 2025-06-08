@@ -6,6 +6,8 @@ export const Dropdown = () => {
         <a href="#" className="dropdown-item">Action 1</a>
         <a href="#" className="dropdown-item">Action 2</a>
         <a href="#" className="dropdown-item">Action 3</a>
+        <a href="#" className="dropdown-item">Action 4</a>
+        <a href="#" className="dropdown-item">Action 5</a>
       </div>
     </div>
   );

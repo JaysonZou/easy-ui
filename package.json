@@ -1,43 +1,13 @@
 {
-  "name": "zebra-ui",
+  "name": "myui",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/my-ui-lib.cjs.js",
-  "module": "dist/my-ui-lib.es.js",
-  "types": "dist/types/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react": "^4.4.1",
-    "autoprefixer": "^10.4.21",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "postcss": "^8.5.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwind-variants": "^1.0.0",
-    "tailwindcss": "^4.1.4",
-    "typescript": "^5.8.2",
-    "vite": "^6.3.2",
-    "vitest": "^3.1.1"
-  },
-  "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.4"
-  }
+  "description": ""
 }

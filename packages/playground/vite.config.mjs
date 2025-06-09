@@ -15,7 +15,7 @@ export default defineConfig({
   // },
   resolve: {
     alias: {
-      '@easy/ui': path.resolve(__dirname, '../ui/src/index.ts'),
+      '@easy/ui': path.resolve(__dirname, '../ui/src'),
     },
   },
 })
